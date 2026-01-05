@@ -21,7 +21,8 @@ A full-stack project demonstrating a REST-style API built with Node.js, Express,
 2. Install dependencies:
    npm install
 
-3. Create a .env file with your DB credentials:
+3. Create a `.env` file with your DB credentials:
+    ```bash
    DB_HOST=localhost
    DB_USER=root
    DB_PASSWORD=
