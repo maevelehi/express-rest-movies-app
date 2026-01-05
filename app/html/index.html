@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinematic</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="/img/favicon.png" rel="icon" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- HEADER LEFT -->
+    <header id="header-left">
+      <img src="/img/logo.jpg" alt="Logo" class="logo" />
+      <nav>
+        <a href="#">Reviews</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HEADER RIGHT -->
+    <header id="header-right">
+      <h1>Cinematic</h1>
+      <img src="/img/popcorn.jpg" alt="Popcorn" />
+    </header>
+
+    <!-- HERO -->
+    <section id="hero">
+      <h2>See your favorite movies with Cinematic</h2>
+    </section>
+
+    <!-- SIDE LEFT -->
+    <aside id="side-left">
+      <figure>
+        <img src="/img/movie1.jpg" alt="movie 1" />
+        <img src="/img/movie2.jpg" alt="movie 2" />
+        <img src="/img/movie3.jpg" alt="movie 3" />
+        <img src="/img/movie4.jpg" alt="movie 4" />
+      </figure>
+    </aside>
+
+    <!-- SIDE RIGHT -->
+    <aside id="side-right">
+      <div class="ajax_content">
+        <div class="buttons-row">
+          <input id="moviesJSON" type="button" value="Get Movies as JSON" />
+          <input class="clear" type="button" value="Clear" />
+        </div>
+        <div class="ajax-stuff" id="movies-json"></div>
+      </div>
+    </aside>
+
+    <!-- MAIN LEFT -->
+    <main id="main-left">
+      <div class="section">
+        <h3>Movie Listings</h3>
+        <p>
+          Browse a curated list of current movies with showtimes, genres,
+          ratings, and brief descriptions.
+        </p>
+        <img src="/img/icon1.png" alt="icon 1" class="inline-img" />
+      </div>
+      <hr />
+
+      <div class="section">
+        <h3>Why Our Cinema</h3>
+        <p>
+          Find detailed info on each film, including duration, cast, and age
+          rating, so you can plan your visit easily
+        </p>
+        <img src="/img/icon2.png" alt="icon 2" class="inline-img" />
+      </div>
+
+      <hr />
+      <div class="section">
+        <h3>Extras & Features</h3>
+        <p>
+          Access trailers, seat selection, and interactive features to enhance
+          your movie-going experience
+        </p>
+        <img src="/img/icon3.png" alt="icon 3" class="inline-img" />
+      </div>
+
+      <br />
+      <hr />
+    </main>
+
+    <!-- MAIN RIGHT -->
+    <section id="main-right">
+      <br />
+      <br /><br />
+      <div id="reviews-table"></div>
+      <h3>About us</h3>
+      <p>
+        We provide execellent service and movie quality
+        <br />
+        <br />
+      </p>
+    </section>
+
+    <footer id="footer">
+      <p>&copy; 2025 Cinematic</p>
+    </footer>
+
+    <script src="/js/client.js"></script>
+  </body>
+</html>

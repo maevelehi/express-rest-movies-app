@@ -1,0 +1,72 @@
+[
+    {
+        "Title": "Harry Potter and the Sorcerer's Stone",
+        "Genre": "Fantasy",
+        "Duration": 152,
+        "Rating": "PG",
+        "Showtimes": "12:00"
+    },
+    {
+        "Title": "Harry Potter and the Chamber of Secrets",
+        "Genre": "Fantasy",
+        "Duration": 161,
+        "Rating": "PG",
+        "Showtimes": "11:30"
+    },
+    {
+        "Title": "Harry Potter and the Half-Blood Prince",
+        "Genre": "Fantasy",
+        "Duration": 153,
+        "Rating": "PG",
+        "Showtimes": "17:00"
+    },
+    {
+        "Title": "Harry Potter and the Prisoner of Azkaban",
+        "Genre": "Fantasy",
+        "Duration": 142,
+        "Rating": "PG",
+        "Showtimes": "16:00"
+    },
+    {
+        "Title": "Harry Potter and the Goblet of Fire",
+        "Genre": "Fantasy",
+        "Duration": 157,
+        "Rating": "PG",
+        "Showtimes": "12:45"
+    },
+    {
+        "Title": "Harry Potter and the Order of the Phoenix",
+        "Genre": "Fantasy",
+        "Duration": 138,
+        "Rating": "PG-13",
+        "Showtimes": "13:30"
+    },
+    {
+        "Title": "Harry Potter and the Deathly Hallows: Part 1",
+        "Genre": "Fantasy",
+        "Duration": 146,
+        "Rating": "PG-13",
+        "Showtimes": "15:15"
+    },
+    {
+        "Title": "Harry Potter and the Deathly Hallows: Part 2",
+        "Genre": "Fantasy",
+        "Duration": 130,
+        "Rating": "PG-13",
+        "Showtimes": "14:45"
+    },
+    {
+        "Title": "Fantastic Beasts and Where to Find Them",
+        "Genre": "Fantasy",
+        "Duration": 133,
+        "Rating": "PG",
+        "Showtimes": "11:00"
+    },
+    {
+        "Title": "Harry Potter 20th Anniversary: Return to Hogwarts",
+        "Genre": "Documentary",
+        "Duration": 102,
+        "Rating": "PG",
+        "Showtimes": "16:00"
+    }
+]

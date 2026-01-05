@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Merriweather", serif;
+}
+
+/* GRID AREAS ASSIGNMENT */
+#header-left {
+  grid-area: headerLeft;
+  background-color: #090909;
+  color: white;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.5rem 2rem;
+}
+
+#header-right {
+  grid-area: headerRight;
+  background-color: #090909;
+  /* width: 100%; */
+  width: auto;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+#header-right h1 {
+  font-family: "Merriweather", serif;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+#header-right img {
+  max-height: 50px;
+  height: auto;
+}
+
+#hero {
+  grid-area: hero;
+  color: white;
+  text-align: center;
+}
+
+#hero h2 {
+  font-family: "Merriweather", serif;
+}
+
+#side-left {
+  grid-area: sideLeft;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.3rem;
+  min-height: 100px;
+}
+
+#side-left figure {
+  margin: 0;
+  text-align: center;
+}
+
+#side-left figure img {
+  max-width: 18%;
+  height: auto;
+}
+
+#side-right {
+  grid-area: sideRight;
+  font-family: "Merriweather", serif;
+  font-size: 16pt;
+  background-color: black;
+  color: white;
+  padding: 0.3rem;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  /* justify-content: center;
+  gap: 1rem;  */
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.ajax_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* text-align: center; */
+  gap: 10px;
+  width: 70%;
+  flex: 1 1 300px; /*added*/
+  margin-bottom: 10px;
+}
+
+.ajax-stuff {
+  width: 100%;
+  overflow: auto;
+  background: orange;
+}
+table,
+th,
+td {
+  padding: 1rem;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th {
+  font-size: 12pt;
+}
+td {
+  font-size: 10pt;
+}
+.buttons-row {
+  display: flex;
+  gap: 2px;
+}
+
+#reviews-table {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  margin-bottom: 3rem;
+}
+
+#reviews-table table {
+  width: 100%;
+  table-layout: auto;
+  border-collapse: collapse;
+  width: 100%;
+  overflow: auto;
+  background: orange;
+}
+
+/* #reviews-table {
+  width: 100%;
+  max-width: 100%;
+}
+
+#reviews-table table {
+  width: 100%;
+  table-layout: auto; 
+  white-space: normal; 
+}
+
+#reviews-table th,
+#reviews-table td {
+  text-align: center;
+  padding: 0.2rem;
+  overflow-wrap: normal;
+} */
+
+.clear,
+#moviesHTML,
+#moviesJSON {
+  color: white;
+  font-weight: bold;
+  background-color: #0f408f;
+  padding: 5%;
+  border-radius: 5px;
+  display: inline-block;
+  /* text-align: center; */
+}
+
+#main-left {
+  font-family: "Merriweather", serif;
+  grid-area: mainLeft;
+  background-color: #e8f9fd;
+  padding: 1rem;
+  color: black;
+}
+#main-right {
+  font-family: "Merriweather", serif;
+  grid-area: mainRight;
+  /* background-color: black; */
+  background-color: #e8f9fd;
+  padding: 1rem;
+  text-align: left;
+  color: black;
+}
+
+/* BASIC CONTENT STYLING */
+.logo {
+  max-height: 50px;
+  display: block;
+  margin: 0.2rem;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  font-family: "Merriweather", serif;
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#hero {
+  background: url("/img/hero.jpg") no-repeat center center / cover;
+  min-height: 400px;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#hero h2 {
+  font-family: "Merriweather", serif;
+  font-size: 50pt;
+  background: rgba(0, 0, 0, 0);
+  display: inline-block;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+#main-left hr {
+  margin: 1rem 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+#main-left h3 {
+  font-family: "Merriweather", serif;
+  margin-bottom: 0.5rem;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.section h3 {
+  border-left: 3px solid black;
+  padding-left: 1rem;
+}
+
+.inline-img {
+  width: 90px;
+  height: 90px;
+  float: right;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#footer {
+  grid-area: footer;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+/* Desktop: 1281–1600px */
+@media (min-width: 1281px) and (max-width: 1600px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "headerLeft   headerLeft   headerLeft   headerRight"
+      "hero         hero         hero         hero"
+      "sideLeft     sideLeft     sideLeft     sideLeft"
+      "sideRight    sideRight    sideRight    sideRight"
+      "mainLeft     mainLeft     mainRight    mainRight"
+      "footer       footer       footer       footer";
+    gap: 0rem;
+  }
+}
+
+/* Tablet: 701–1280px */
+@media (min-width: 701px) and (max-width: 1280px) {
+  body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      "headerLeft  headerRight"
+      "hero        hero"
+      "sideLeft    sideLeft"
+      "sideRight   sideRight"
+      "mainLeft    mainLeft"
+      "mainRight   mainRight"
+      "footer      footer";
+    gap: 0rem;
+  }
+
+  a {
+    font-size: 11pt;
+  }
+
+  .ajax_content,
+  .ajax-stuff {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Make table fill its container */
+  .ajax-stuff table {
+    width: 100%;
+    table-layout: auto;
+  }
+}
+
+/* Mobile: 700px and below */
+@media (max-width: 700px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "headerLeft"
+      "headerRight"
+      "hero"
+      "sideRight"
+      "mainLeft"
+      "mainRight"
+      "footer";
+    gap: 0rem;
+  }
+
+  nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+  }
+
+  #hero h2 {
+    font-size: 40pt;
+  }
+
+  #side-left {
+    display: none;
+  }
+
+  .ajax-stuff table {
+    width: auto;
+    table-layout: fixed;
+  }
+
+  table,
+  th,
+  td {
+    padding: 0.5rem;
+  }
+
+  #reviews-table {
+    width: 500px;
+    max-width: 100%;
+    overflow-x: auto; 
+  }
+
+  #reviews-table table {
+    width: auto;
+    table-layout: fixed; /* force table to fit container */
+    font-size: 8pt;      /* reduce font size to fit content */
+  }
+
+  #reviews-table th,
+  #reviews-table td {
+    padding: 0.5rem;     /* smaller padding */
+  }
+}
