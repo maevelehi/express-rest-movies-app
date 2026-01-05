@@ -19,7 +19,7 @@ A full-stack project demonstrating a REST-style API built with Node.js, Express,
    git clone https://github.com/maevelehi/express-rest-movies-app.git
 
 2. Install dependencies:
-   npm install
+   `npm install`
 
 3. Create a `.env` file with your DB credentials:
     ```bash
