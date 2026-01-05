@@ -28,6 +28,6 @@ A full-stack project demonstrating a REST-style API built with Node.js, Express,
    DB_PASSWORD=
    DB_NAME=assignment6
 
-4. Start the server
-    node assignment6.js
+4. Start the server:
+    `node assignment6.js`
 
