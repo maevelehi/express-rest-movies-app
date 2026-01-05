@@ -1,4 +1,4 @@
-# Express REST Movies App
+# Express REST Movies Web Page
 A full-stack project demonstrating a REST-style API built with Node.js, Express, and MySQL, with a frontend that fetches JSON data and dynamically renders it.
 
 ## Tech Stack
